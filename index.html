@@ -1180,6 +1180,19 @@
     .grid-2-7-5,.grid-2-6-6,.grid-2-8-4,.grid-2-4-8{grid-template-columns:1fr}
     .grid-12{grid-template-columns:repeat(6,1fr)}
   }
+</style><style id="zhonghong-brand-green">
+:root{
+ --paper:#FAFAF5;--paper-rgb:250,250,245;
+ --ink:#123D32;--ink-rgb:18,61,50;
+ --grey-1:#EDF2EB;--grey-2:#CCDAD1;--grey-3:#5C7266;
+ --accent:#007A53;--accent-rgb:0,122,83;--accent-on:#FFFFFF;--accent-bright:#62D9A3;
+ --text-primary:#123D32;--text-secondary:#425E50;--text-helper:#5C7266;
+ --text-placeholder:#879F91;--border-subtle:#DDE6DB;--border-strong:#879F91;
+}
+.slide.accent,.slide.accent .canvas-card,.half.b-accent{background:#00543D!important;color:#FAFAF5}
+.slide.dark:not(.accent) [style*="color:var(--accent)"]{color:#62D9A3!important}
+body.dark-bg #nav .dot.active{background:#62D9A3}
+body:not(.dark-bg) #hint{color:#007A53;opacity:.85}
 </style>
 <style>
 #speaker{position:fixed;inset:8vh 10vw;z-index:200;background:var(--paper);color:var(--ink);border:2px solid var(--accent);padding:4vh 3vw;overflow:auto;display:none;font-size:20px;line-height:1.7;white-space:pre-wrap}#speaker a{color:var(--accent)}
