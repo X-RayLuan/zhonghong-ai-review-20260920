@@ -1,0 +1,35 @@
+{
+  "verified_at_beijing": "2026-09-22 01:17",
+  "last_personal_message": "2026-09-18 21:49",
+  "last_silver_message": "2026-09-20 09:39",
+  "metrics": [
+    {
+      "channel": "个险",
+      "entry": "group",
+      "accounts": 10,
+      "requests": 37,
+      "turns": 52
+    },
+    {
+      "channel": "个险",
+      "entry": "p2p",
+      "accounts": 10,
+      "requests": 42,
+      "turns": 64
+    },
+    {
+      "channel": "银保",
+      "entry": "group",
+      "accounts": 5,
+      "requests": 14,
+      "turns": 16
+    }
+  ],
+  "scope": "4个正式群、10个已知私聊；按账号统计，非全员覆盖率。群聊与私聊账号有重叠；未接入入口不计。",
+  "delta_since_0919": {
+    "personal_requests": 0,
+    "private_messages": 0,
+    "silver_requests": 1,
+    "silver_business_turns": 1
+  }
+}
