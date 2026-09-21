@@ -1,6 +1,7 @@
 {
   "mainCount": 28,
-  "referenceCount": 55,
+  "referenceCount": 27,
+  "definition": "original page IDs not in the 28-slide main deck; full 55-slide edition remains at ../index.html",
   "slides": [
     {
       "main": 1,
@@ -141,6 +142,116 @@
       "main": 28,
       "original": 54,
       "title": "现场交流：好行为怎样变成业务价值"
+    }
+  ],
+  "appendix": [
+    {
+      "page": 1,
+      "original": 4
+    },
+    {
+      "page": 2,
+      "original": 6
+    },
+    {
+      "page": 3,
+      "original": 7
+    },
+    {
+      "page": 4,
+      "original": 8
+    },
+    {
+      "page": 5,
+      "original": 9
+    },
+    {
+      "page": 6,
+      "original": 11
+    },
+    {
+      "page": 7,
+      "original": 12
+    },
+    {
+      "page": 8,
+      "original": 13
+    },
+    {
+      "page": 9,
+      "original": 14
+    },
+    {
+      "page": 10,
+      "original": 15
+    },
+    {
+      "page": 11,
+      "original": 17
+    },
+    {
+      "page": 12,
+      "original": 19
+    },
+    {
+      "page": 13,
+      "original": 21
+    },
+    {
+      "page": 14,
+      "original": 27
+    },
+    {
+      "page": 15,
+      "original": 31
+    },
+    {
+      "page": 16,
+      "original": 32
+    },
+    {
+      "page": 17,
+      "original": 33
+    },
+    {
+      "page": 18,
+      "original": 36
+    },
+    {
+      "page": 19,
+      "original": 38
+    },
+    {
+      "page": 20,
+      "original": 40
+    },
+    {
+      "page": 21,
+      "original": 41
+    },
+    {
+      "page": 22,
+      "original": 47
+    },
+    {
+      "page": 23,
+      "original": 49
+    },
+    {
+      "page": 24,
+      "original": 51
+    },
+    {
+      "page": 25,
+      "original": 52
+    },
+    {
+      "page": 26,
+      "original": 53
+    },
+    {
+      "page": 27,
+      "original": 55
     }
   ]
 }
