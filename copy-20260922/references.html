@@ -2446,5 +2446,5 @@ document.getElementById('next').onclick=()=>dispatchEvent(new KeyboardEvent('key
 addEventListener('keydown',e=>{if(speaker.style.display==='block'&&!['n','N','Escape'].includes(e.key)){e.stopImmediatePropagation();return;}if(e.key.toLowerCase()==='n'){e.preventDefault();e.stopImmediatePropagation();showNotes();}if(e.key==='Escape'&&speaker.style.display==='block'){speaker.style.display='none';e.stopImmediatePropagation();}if(e.key.toLowerCase()==='f')full();},true);
 speaker.addEventListener('wheel',e=>e.stopPropagation());
 const goHash=()=>{const n=parseInt(location.hash.slice(1));if(n>=1&&n<=27)document.querySelectorAll('#nav button')[n-1]?.click();};addEventListener('hashchange',()=>setTimeout(goHash,750));setTimeout(goHash,800);
-</script></body>
+</script><script src="return-navigation.js?v=1"></script></body>
 </html>
