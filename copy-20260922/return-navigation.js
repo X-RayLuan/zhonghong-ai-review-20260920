@@ -1,7 +1,8 @@
 /* Keep the originating main-deck page with each appendix visit. */
 (() => {
   const key = 'zhonghong-main-return-v1';
-  const isReference = /\/references(?:-mobile)?\.html$/.test(location.pathname);
+  const referencePath = /\/(?:references(?:-mobile)?|agent-reference)\.html$/;
+  const isReference = referencePath.test(location.pathname);
   const isMobile = /\/mobile\.html$/.test(location.pathname);
   const validPage = value => /^\d+$/.test(String(value)) && +value >= 1 && +value <= 28;
   const readSaved = () => {
@@ -20,7 +21,7 @@
     const version = query.get('v');
     if (version) target.searchParams.set('v', version);
     for (const link of document.querySelectorAll('a[href]')) {
-      if (link.textContent.includes('返回主讲')) link.href = target.href;
+      if (/返回(?:主讲|演示稿|演讲稿)/.test(link.textContent)) link.href = target.href;
     }
     return;
   }
@@ -30,7 +31,7 @@
     try { sessionStorage.setItem(key, JSON.stringify({page, view})); } catch (_) {}
     for (const link of document.querySelectorAll('a[href]')) {
       const target = new URL(link.getAttribute('href'), location.href);
-      if (target.origin !== location.origin || !/\/references(?:-mobile)?\.html$/.test(target.pathname)) continue;
+      if (target.origin !== location.origin || !referencePath.test(target.pathname)) continue;
       target.searchParams.set('returnPage', page);
       target.searchParams.set('returnView', view);
       const version = new URLSearchParams(location.search).get('v');
