@@ -1,0 +1,146 @@
+{
+  "mainCount": 28,
+  "referenceCount": 55,
+  "slides": [
+    {
+      "main": 1,
+      "original": 1,
+      "title": "如何用AI知识库与Agent，构建销售增长飞轮"
+    },
+    {
+      "main": 2,
+      "original": 2,
+      "title": "现场主线与会后参考"
+    },
+    {
+      "main": 3,
+      "original": 3,
+      "title": "增长飞轮与人的位置"
+    },
+    {
+      "main": 4,
+      "original": 5,
+      "title": "个险与银保：两条不同使用线"
+    },
+    {
+      "main": 5,
+      "original": 10,
+      "title": "案例一：一起完善白板会议"
+    },
+    {
+      "main": 6,
+      "original": 16,
+      "title": "案例二：同伴协作推进报告交付"
+    },
+    {
+      "main": 7,
+      "original": 18,
+      "title": "团队学习中的可观察行为"
+    },
+    {
+      "main": 8,
+      "original": 20,
+      "title": "使用中的支持需求与证据边界"
+    },
+    {
+      "main": 9,
+      "original": 24,
+      "title": "机构负责人自述：一个真实过程"
+    },
+    {
+      "main": 10,
+      "original": 22,
+      "title": "两种使用方式：是否嵌入业务流"
+    },
+    {
+      "main": 11,
+      "original": 23,
+      "title": "Agentify医疗销售教练：拜访闭环"
+    },
+    {
+      "main": 12,
+      "original": 25,
+      "title": "企业知识：业务关系与控制层"
+    },
+    {
+      "main": 13,
+      "original": 26,
+      "title": "中宏 Agent 产品架构"
+    },
+    {
+      "main": 14,
+      "original": 28,
+      "title": "ABrain：自我学习与进化的企业知识库"
+    },
+    {
+      "main": 15,
+      "original": 29,
+      "title": "知识飞轮：每次工作都留下可复用知识"
+    },
+    {
+      "main": 16,
+      "original": 30,
+      "title": "Agentify＋ABrain 与豆包的区别"
+    },
+    {
+      "main": 17,
+      "original": 34,
+      "title": "个险机构负责人的个人知识库"
+    },
+    {
+      "main": 18,
+      "original": 35,
+      "title": "自己的Agent：先选一个真实任务"
+    },
+    {
+      "main": 19,
+      "original": 37,
+      "title": "搜索工具与Skills：各自负责什么"
+    },
+    {
+      "main": 20,
+      "original": 39,
+      "title": "个险Agent：六项工作约定"
+    },
+    {
+      "main": 21,
+      "original": 42,
+      "title": "发布前：自测与独立验收"
+    },
+    {
+      "main": 22,
+      "original": 43,
+      "title": "从用户到架构师"
+    },
+    {
+      "main": 23,
+      "original": 44,
+      "title": "从个人到团队管理"
+    },
+    {
+      "main": 24,
+      "original": 45,
+      "title": "一次客户异议，如何成为团队知识"
+    },
+    {
+      "main": 25,
+      "original": 46,
+      "title": "路径一：带代理人创建陪练Agent"
+    },
+    {
+      "main": 26,
+      "original": 48,
+      "title": "路径二：用Agent辅助团队带教"
+    },
+    {
+      "main": 27,
+      "original": 50,
+      "title": "合规护栏：材料入口与输出出口"
+    },
+    {
+      "main": 28,
+      "original": 54,
+      "title": "现场交流：好行为怎样变成业务价值"
+    }
+  ]
+}
